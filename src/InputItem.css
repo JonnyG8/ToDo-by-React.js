@@ -1,0 +1,32 @@
+.inputCheck[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: cyan;
+    border: 2px solid #007bff;
+  }
+
+.buttonCheck {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: cyan;
+  }
